@@ -10,6 +10,7 @@
 """
 Provides an API for manipulating Open Packaging Convention (OPC) packages.
 """
+from lxml.builder import basestring
 
 from opc.constants import RELATIONSHIP_TYPE as RT
 from opc.oxml import CT_Relationships
